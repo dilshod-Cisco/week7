@@ -5,10 +5,15 @@ from selenium.common.exceptions import WebDriverException, NoSuchElementExceptio
 # *******************  Reusable steps *****************************
 # Initializing a new browser
 
+
 driver = webdriver.Chrome()
 # driver.maximize_window()
 driver.implicitly_wait(20)  # read more about this
 
+
+# class TestAssrt(unittest2.TestCase):
+#     def anythAssert(self):
+#         assertEqual(25, 50-35+10)
 
 def launch_website(url):
     driver.get(url)
@@ -82,7 +87,9 @@ def web_driver_properties_switch_to_tab():
 
     # verifying new tabe url and title is by Requirement
     assert url2 == 'https://letskodeit.teachable.com/courses'
+
     assert title2 == "Let's Kode It"
+    # assertEqual(title2, "Let's Kode It") alternative
 
     # """3. closing tabs vs closing a browser"""
     driver.close()  # this will close the current tab
@@ -133,20 +140,7 @@ def click_element_by_xpath(xpath):
         print(err)
 
 
-def enter_text_by_xpath(xpath, some_text):
-    """
-    this method finds the element by xpath and enters text in it
-    :param xpath: correct unique xpath of single INPUT element
-    :param some_text: text to be entered in the element
-    """
-    try:
-        print(f"xpath provided: {xpath}")
-        element = driver.find_element_by_xpath(xpath)
-        print(f"entering the following text :{some_text}")
-        element.send_keys(some_text)
-    except WebDriverException as err:
-        print(f"Entering Text failed by following xpath: {xpath}")
-        print(err)
+
 
 
 
