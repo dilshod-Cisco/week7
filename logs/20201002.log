@@ -1,0 +1,8 @@
+2020-10-02 23:16:44,358 [INFO] <module>: This is the in message
+2020-10-02 23:16:44,358 [ERROR] <module>: I am an exception case.
+2020-10-02 23:16:44,358 [WARNING] <module>:  something does not seem to be right, but not an error.
+2020-10-02 23:16:44,358 [CRITICAL] <module>: WOUUW WOOUW STOP NOW< CAN NOT RUN ANYTHING AT THIS POINT!!!!
+2020-10-02 23:28:58,756 [INFO] <module>: This is the in message
+2020-10-02 23:28:58,756 [ERROR] <module>: I am an exception case.
+2020-10-02 23:28:58,760 [WARNING] <module>:  something does not seem to be right, but not an error.
+2020-10-02 23:28:58,760 [CRITICAL] <module>: WOUUW WOOUW STOP NOW< CAN NOT RUN ANYTHING AT THIS POINT!!!!

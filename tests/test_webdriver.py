@@ -250,12 +250,20 @@ pswd = data['scenario1']['password']
 # used in enter_text_by_xpath
 
 
-print(get_str_day())
-print(get_str_seconds())
+# print(get_str_day())
+# print(get_str_seconds())
 
 
 
 
+
+
+# logger = create_logger()
+# logger.info("This is the in message")
+# logger.debug("Debug message....")
+# logger.error("I am an exception case.")
+# logger.warn(" something does not seem to be right, but not an error.")
+# logger.critical("WOUUW WOOUW STOP NOW< CAN NOT RUN ANYTHING AT THIS POINT!!!!")
 
 
 
