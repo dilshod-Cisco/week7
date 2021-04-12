@@ -2,3 +2,7 @@
 2020-10-05 02:41:06,956 [ERROR] <module>: I am an exception case.
 2020-10-05 02:41:06,956 [WARNING] <module>:  something does not seem to be right, but not an error.
 2020-10-05 02:41:06,956 [CRITICAL] <module>: WOUUW WOOUW STOP NOW< CAN NOT RUN ANYTHING AT THIS POINT!!!!
+2020-10-05 02:43:00,514 [INFO] <module>: This is the in message
+2020-10-05 02:43:00,514 [ERROR] <module>: I am an exception case.
+2020-10-05 02:43:00,514 [WARNING] <module>:  something does not seem to be right, but not an error.
+2020-10-05 02:43:00,514 [CRITICAL] <module>: WOUUW WOOUW STOP NOW< CAN NOT RUN ANYTHING AT THIS POINT!!!!

@@ -8,7 +8,7 @@ from selenium.common.exceptions import WebDriverException, NoSuchElementExceptio
 
 driver = webdriver.Chrome()
 # driver.maximize_window()
-driver.implicitly_wait(20)  # read more about this
+driver.implicitly_wait(10)  # read more about this
 
 
 # class TestAssrt(unittest2.TestCase):

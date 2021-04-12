@@ -31,7 +31,7 @@ pswd = data['scenario1']['password']
 # Prerequisite: create an account:
 # username: helo@email.com, have strong password: "612345"
 # identify all locators by inspecting on browser (xpath, optional: id, css selector):
-
+#
 # web_url = "http://automationpractice.com/index.php"
 # username = "helo@email.com"
 # paswd = "612345"
@@ -42,10 +42,10 @@ pswd = data['scenario1']['password']
 
 
 
-#login_to_automation_practice(web_url, username, paswd)# keeps orders parameters
-# login_to_automation_practice(email=username, url=web_url,password=paswd)
-
-
+# login_to_automation_practice(web_url, username, pswd)# keeps orders parameters
+# login_to_automation_practice(email=username, url=web_url,password=pswd)
+#
+#
 # data1 = {
 #     'scenario1': {'web_url': 'http..', 'username': 'hello', 'password': 'yourpass'},
 #     'scenario2': {'web_url': 'http..', 'username': 'hello', 'password': 'yourpass'}
@@ -54,6 +54,7 @@ pswd = data['scenario1']['password']
 # web_url = data['scenario1']['web_url']
 # username = data['scenario1']['username']
 # pswd = data['scenario1']['password']
+# close_browser()
 
 
 # login_to_automation_practice(web_url, username, pswd)
@@ -79,18 +80,17 @@ pswd = data['scenario1']['password']
 # click_element_by_xpath(sign_out_link)
 # close_browser()
 
-
 # newid = driver.find_element_by_xpath('').get_attribute('id')
-    # dynamic_xpath = "//span[@id=obj123456]"
-    # dynamic_xpath = f"//span[@id=obj1{newid}]"
-    # dynamic_xpath = "//span[contains(@id, 'j1')]"
-    # dynamic_xpath = "//span[ends-with(@id, '56')]"
-    # dynamic_xpath = "//span[starts-with(@id, 'obj')]"
-    # import re
-    #
-    # def get_xpath(id_num):
-    #     return "//span[@id='" + id_num + "']"
-    #
+#     dynamic_xpath = "//span[@id=obj123456]"
+#     dynamic_xpath = f"//span[@id=obj1{newid}]"
+#     dynamic_xpath = "//span[contains(@id, 'j1')]"
+#     dynamic_xpath = "//span[ends-with(@id, '56')]"
+#     dynamic_xpath = "//span[starts-with(@id, 'obj')]"
+#     import re
+#
+#     def get_xpath(id_num):
+#         return "//span[@id='" + id_num + "']"
+
 
 # H/W : Sign In> enter email> click on Create Account > Fill the forms
 # finding all elements (xpath, id, name)
@@ -181,11 +181,11 @@ pswd = data['scenario1']['password']
 # verify that account is created, by message, Logout button
 
 
-# Class project: 2
-# # uploading a file
-# # open browser, Launch the "https://www.facebook.com/marketplace/"
-# # login to facebook
-# # create new listing, choose item for sale, verify the url: "https://www.facebook.com/marketplace/"
+#Class project: 2
+# uploading a file
+# open browser, Launch the "https://www.facebook.com/marketplace/"
+# login to facebook
+# create new listing, choose item for sale, verify the url: "https://www.facebook.com/marketplace/"
 # upload_xpath = "//input[@type='file' and contains(@accept, 'image')]"
 # price_input = "//label[@aria-label='Price']//input[contains(@id, 'jsc_c_')]"
 # title_input = "//label[@aria-label=['Title']//input[contains(@id, 'jsc_c_')]"
@@ -236,7 +236,7 @@ pswd = data['scenario1']['password']
 
 #test_alerts()
 
-# # == hover over element.
+# == hover over element.
 # test_mouse_hovering()
 # close_browser()
 
@@ -255,17 +255,14 @@ pswd = data['scenario1']['password']
 
 
 
-
-
-
 # logger = create_logger()
 # logger.info("This is the in message")
 # logger.debug("Debug message....")
 # logger.error("I am an exception case.")
 # logger.warn(" something does not seem to be right, but not an error.")
 # logger.critical("WOUUW WOOUW STOP NOW< CAN NOT RUN ANYTHING AT THIS POINT!!!!")
-
-
+#
+#
 
 
 
